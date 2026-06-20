@@ -7,6 +7,7 @@
 작은 아이디어를 직접 만들고, 출시하고, 기록합니다.
 
 [![Portfolio](https://img.shields.io/badge/Status-Building-blue)](https://github.com/easyseop/vibe-to-project)
+[![Profile](https://img.shields.io/badge/Resume-Profile-181717?logo=github)](https://github.com/easyseop)
 [![Projects Board](https://img.shields.io/badge/GitHub-Projects-181717?logo=github)](https://github.com/easyseop?tab=projects)
 
 </div>
@@ -20,11 +21,16 @@
 
 - 🧩 만드는 것: **[수정 필요: 예: 웹앱 · 자동화 도구 · AI 사이드 프로젝트]**
 - 🧰 주로 쓰는 기술: **[수정 필요: 예: React, TypeScript, Next.js, Python]**
+- 📄 이력서 / 자기소개: **[프로필 보기](https://github.com/easyseop)**
 - 📋 전체 진행 상황: **[GitHub Projects 보드](https://github.com/easyseop?tab=projects)**
 
 **상태 표기:** 💡 아이디어 · 🚧 제작 중 · 🧪 테스트 중 · ✅ 완료
 
+> 아래 프로젝트 영역은 [`projects.json`](./projects.json) 으로부터 자동 생성됩니다. **직접 수정하지 마세요.** `projects.json`만 고치면 됩니다.
+
 ---
+
+<!-- PROJECTS:START -->
 
 ## 🚧 진행 중인 프로젝트
 
@@ -35,7 +41,7 @@
 
 ### 🚧 [수정 필요: 프로젝트 이름 A]
 
-<img src="./assets/project-a.png" alt="Project A" width="100%">
+<img src="./assets/project-a.png" alt="[수정 필요: 프로젝트 이름 A]" width="100%">
 
 **한 줄 설명**
 [수정 필요: 이 프로젝트가 무엇인지 한 문장으로]
@@ -45,7 +51,7 @@
 - [수정 필요: 핵심 기능 2]
 
 **사용 기술**
-`[수정 필요: React]` `[TypeScript]` `[Vite]`
+`React` `TypeScript` `Vite`
 
 **상태:** 🚧 제작 중
 
@@ -57,7 +63,7 @@
 
 ### 🧪 [수정 필요: 프로젝트 이름 B]
 
-<img src="./assets/project-b.png" alt="Project B" width="100%">
+<img src="./assets/project-b.png" alt="[수정 필요: 프로젝트 이름 B]" width="100%">
 
 **한 줄 설명**
 [수정 필요: 이 프로젝트가 무엇인지 한 문장으로]
@@ -67,7 +73,7 @@
 - [수정 필요: 핵심 기능 2]
 
 **사용 기술**
-`[수정 필요: Next.js]` `[Supabase]`
+`Next.js` `Supabase`
 
 **상태:** 🧪 테스트 중
 
@@ -89,7 +95,7 @@
 
 ### ✅ [수정 필요: 프로젝트 이름 C]
 
-<img src="./assets/project-c.png" alt="Project C" width="100%">
+<img src="./assets/project-c.png" alt="[수정 필요: 프로젝트 이름 C]" width="100%">
 
 **한 줄 설명**
 [수정 필요: 이 프로젝트가 무엇인지 한 문장으로]
@@ -99,7 +105,7 @@
 - [수정 필요: 핵심 기능 2]
 
 **사용 기술**
-`[수정 필요: Python]` `[FastAPI]`
+`Python` `FastAPI`
 
 **상태:** ✅ 완료
 
@@ -111,7 +117,7 @@
 
 ### ✅ [수정 필요: 프로젝트 이름 D]
 
-<img src="./assets/project-d.png" alt="Project D" width="100%">
+<img src="./assets/project-d.png" alt="[수정 필요: 프로젝트 이름 D]" width="100%">
 
 **한 줄 설명**
 [수정 필요: 이 프로젝트가 무엇인지 한 문장으로]
@@ -121,7 +127,7 @@
 - [수정 필요: 핵심 기능 2]
 
 **사용 기술**
-`[수정 필요: React]` `[Firebase]`
+`React` `Firebase`
 
 **상태:** ✅ 완료
 
@@ -140,9 +146,10 @@
 |:---:|---|---|---|
 | 💡 | [수정 필요: 아이디어 1] | [수정 필요: 한 문장 설명] | [수정 필요: 어떤 불편함을 해결?] |
 | 💡 | [수정 필요: 아이디어 2] | [수정 필요: 한 문장 설명] | [수정 필요: 어떤 불편함을 해결?] |
-| 💡 | [수정 필요: 아이디어 3] | [수정 필요: 한 문장 설명] | [수정 필요: 어떤 불편함을 해결?] |
 
-> 아이디어가 구체화되면 위 카드 섹션으로 옮기고 상태를 🚧로 바꿉니다.
+> 아이디어가 구체화되면 `projects.json`의 status를 `building`으로 바꾸세요. 자동으로 카드 섹션으로 이동합니다.
+
+<!-- PROJECTS:END -->
 
 ---
 

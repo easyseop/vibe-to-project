@@ -1,0 +1,77 @@
+{
+  "$comment": "이 파일이 포트폴리오의 유일한 원본(source of truth)입니다. 여기만 고치고 저장하면 README가 자동 갱신됩니다. status는 idea | building | testing | done 중 하나.",
+  "projects": [
+    {
+      "name": "[수정 필요: 프로젝트 이름 A]",
+      "status": "building",
+      "oneLiner": "[수정 필요: 이 프로젝트가 무엇인지 한 문장으로]",
+      "highlights": [
+        "[수정 필요: 핵심 기능 1]",
+        "[수정 필요: 핵심 기능 2]"
+      ],
+      "tech": ["React", "TypeScript", "Vite"],
+      "image": "./assets/project-a.png",
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "name": "[수정 필요: 프로젝트 이름 B]",
+      "status": "testing",
+      "oneLiner": "[수정 필요: 이 프로젝트가 무엇인지 한 문장으로]",
+      "highlights": [
+        "[수정 필요: 핵심 기능 1]",
+        "[수정 필요: 핵심 기능 2]"
+      ],
+      "tech": ["Next.js", "Supabase"],
+      "image": "./assets/project-b.png",
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "name": "[수정 필요: 프로젝트 이름 C]",
+      "status": "done",
+      "oneLiner": "[수정 필요: 이 프로젝트가 무엇인지 한 문장으로]",
+      "highlights": [
+        "[수정 필요: 핵심 기능 1]",
+        "[수정 필요: 핵심 기능 2]"
+      ],
+      "tech": ["Python", "FastAPI"],
+      "image": "./assets/project-c.png",
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "name": "[수정 필요: 프로젝트 이름 D]",
+      "status": "done",
+      "oneLiner": "[수정 필요: 이 프로젝트가 무엇인지 한 문장으로]",
+      "highlights": [
+        "[수정 필요: 핵심 기능 1]",
+        "[수정 필요: 핵심 기능 2]"
+      ],
+      "tech": ["React", "Firebase"],
+      "image": "./assets/project-d.png",
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "name": "[수정 필요: 아이디어 1]",
+      "status": "idea",
+      "oneLiner": "[수정 필요: 한 문장 설명]",
+      "highlights": ["[수정 필요: 어떤 불편함을 해결?]"],
+      "tech": [],
+      "image": "",
+      "demo": "",
+      "repo": ""
+    },
+    {
+      "name": "[수정 필요: 아이디어 2]",
+      "status": "idea",
+      "oneLiner": "[수정 필요: 한 문장 설명]",
+      "highlights": ["[수정 필요: 어떤 불편함을 해결?]"],
+      "tech": [],
+      "image": "",
+      "demo": "",
+      "repo": ""
+    }
+  ]
+}
