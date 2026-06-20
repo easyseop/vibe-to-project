@@ -2,6 +2,21 @@
   "$comment": "이 파일이 포트폴리오의 유일한 원본(source of truth)입니다. 여기만 고치고 저장하면 README가 자동 갱신됩니다. status는 idea | building | testing | done 중 하나.",
   "projects": [
     {
+      "name": "Stock Chart Analyze",
+      "status": "building",
+      "oneLiner": "차트를 '군중 심리의 지도'로 읽어 매수·매도·보유 신호와 손절가를 제시하는 주식 분석 도구.",
+      "highlights": [
+        "OHLCV만으로 탐욕·공포 등 심리 신호 분석 (외부 API 불필요)",
+        "ADX·이동평균·RSI·지지/저항·추세선·매물대 등 기술 지표 모듈",
+        "일/주/월 멀티 타임프레임 분석 + plotly 인터랙티브 차트",
+        "ATR 기반 손절가 자동 계산, 오프라인 데모 모드"
+      ],
+      "tech": ["Python", "pandas", "plotly", "FinanceDataReader"],
+      "image": "",
+      "demo": "",
+      "repo": "https://github.com/easyseop/Stock-chart-analyze"
+    },
+    {
       "name": "Kanji JLPT Study",
       "status": "done",
       "oneLiner": "빌드 없이 index.html 하나로 바로 쓰는 JLPT(N5·N4·N3) 한자 612자 학습 웹앱.",

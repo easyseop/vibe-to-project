@@ -34,7 +34,35 @@
 
 ## 🚧 진행 중인 프로젝트
 
-_아직 없습니다._
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### 🚧 Stock Chart Analyze
+
+<sub>이미지 없음 — assets/ 에 스크린샷을 추가하세요</sub>
+
+**한 줄 설명**
+차트를 '군중 심리의 지도'로 읽어 매수·매도·보유 신호와 손절가를 제시하는 주식 분석 도구.
+
+**해결하는 문제 / 주요 기능**
+- OHLCV만으로 탐욕·공포 등 심리 신호 분석 (외부 API 불필요)
+- ADX·이동평균·RSI·지지/저항·추세선·매물대 등 기술 지표 모듈
+- 일/주/월 멀티 타임프레임 분석 + plotly 인터랙티브 차트
+- ATR 기반 손절가 자동 계산, 오프라인 데모 모드
+
+**사용 기술**
+`Python` `pandas` `plotly` `FinanceDataReader`
+
+**상태:** 🚧 제작 중
+
+[🔗 데모](#) · [💻 GitHub](https://github.com/easyseop/Stock-chart-analyze)
+
+</td>
+
+</tr>
+</table>
 
 ---
 
