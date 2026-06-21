@@ -61,12 +61,13 @@ function card(p) {
     `${link("🔗 데모", p.demo)} · ${link("💻 GitHub", p.repo)}`,
   ];
 
-  // 선택: "설계에서 고려한 점" — 접이식으로 노력/깊이를 보여줌
+  // 선택: "기획에서 고려한 점" — 접이식으로 기획 의도/아이디어를 보여줌
   if (p.notes && p.notes.length) {
+    const notesTitle = p.notesTitle || "💡 <b>기획에서 고려한 점</b>";
     parts.push(
       ``,
       `<details>`,
-      `<summary>🧠 <b>설계에서 고려한 점</b></summary>`,
+      `<summary>${notesTitle}</summary>`,
       ``,
       ...p.notes.map((n) => `- ${n}`),
       ``,
