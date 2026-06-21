@@ -24,9 +24,15 @@ README.md 는 **직접 수정하지 않습니다.** [`projects.json`](./projects
   "tech": ["React", "TypeScript"],          // 사용 기술
   "image": "./assets/todo-timer.png",       // 스크린샷 (없으면 "")
   "demo": "https://todo-timer.vercel.app",  // 데모 URL (없으면 "")
-  "repo": "https://github.com/easyseop/todo-timer" // 코드 저장소 (없으면 "")
+  "repo": "https://github.com/easyseop/todo-timer", // 코드 저장소 (없으면 "")
+  "notes": [                                // (선택) "설계에서 고려한 점" — 접이식으로 표시
+    "**의존성 최소화:** 외부 API 없이 동작하도록 설계",
+    "**엣지케이스:** 빈 데이터/예외 입력 방어 처리"
+  ]
 }
 ```
+
+> `notes` 는 카드 하단에 접이식(`<details>`)으로 들어갑니다. 기술적 고민·설계 의도·엣지케이스 대응 등 **"이런 것까지 고려했다"** 를 보여주고 싶을 때 사용하세요. 없으면 생략됩니다.
 
 ### 상태 변경 (예: 제작 중 → 완료)
 `status` 값만 `"building"` → `"done"` 으로 바꾸면 카드가 자동으로 "완료" 섹션으로 이동합니다.

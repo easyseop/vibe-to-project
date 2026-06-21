@@ -40,7 +40,7 @@ function card(p) {
   const tech = (p.tech ?? []).map((t) => `\`${t}\``).join(" ") || "`[수정 필요: 기술]`";
   const highlights = (p.highlights ?? []).map((h) => `- ${h}`).join("\n");
 
-  return [
+  const parts = [
     `<td width="50%" valign="top">`,
     ``,
     `### ${s.emoji} ${p.name}`,
@@ -59,9 +59,23 @@ function card(p) {
     `**상태:** ${s.emoji} ${s.label}`,
     ``,
     `${link("🔗 데모", p.demo)} · ${link("💻 GitHub", p.repo)}`,
-    ``,
-    `</td>`,
-  ].join("\n");
+  ];
+
+  // 선택: "설계에서 고려한 점" — 접이식으로 노력/깊이를 보여줌
+  if (p.notes && p.notes.length) {
+    parts.push(
+      ``,
+      `<details>`,
+      `<summary>🧠 <b>설계에서 고려한 점</b></summary>`,
+      ``,
+      ...p.notes.map((n) => `- ${n}`),
+      ``,
+      `</details>`,
+    );
+  }
+
+  parts.push(``, `</td>`);
+  return parts.join("\n");
 }
 
 /** 카드들을 2열 table로 묶기 */
